@@ -20,11 +20,16 @@ type alias Model = Int
 
 buttonMailbox : Mailbox String
 buttonMailbox =
-    mailbox "initial value"
+    mailbox "Waiting to be clicked"
 
-countClicks : Signal Model
+initState = 0
+
+countClicks : Signal Int
 countClicks =
-    foldp (\_ acc -> acc + 1) 0 buttonMailbox.signal
+    foldp
+        (\sig state -> state + 1)
+        initState
+        buttonMailbox.signal
 
 buttonMessage : Message
 buttonMessage =

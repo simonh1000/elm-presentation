@@ -17,7 +17,7 @@ view but sig =
 
 buttonMailbox : Mailbox String
 buttonMailbox =
-    mailbox "initial value"
+    mailbox "Waiting to be clicked"
 
 buttonMessage : Message
 buttonMessage =
