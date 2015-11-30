@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/user/project.git",
+    "summary": "demo code for LHUG, December 2015",
+    "repository": "https://github.com/simonh1000/elm-presentation",
     "license": "BSD3",
     "source-directories": [
         "."
