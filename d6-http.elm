@@ -25,7 +25,6 @@ showGif s =
             [ style [( "width", "20%" )]
             , src s
             ] []
-        -- , p [] [ text s ]
         ]
 
 view gifsNow =

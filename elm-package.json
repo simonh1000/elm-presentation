@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "demo code for LHUG, December 2015",
-    "repository": "https://github.com/simonh1000/elm-presentation",
+    "summary": "Demo code for LHUG, December 2015",
+    "repository": "https://github.com/simonh1000/elm-presentation.git",
     "license": "BSD3",
     "source-directories": [
         "."
